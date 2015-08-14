@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical">
+    <LinearLayout  android:padding="10dp"
+        android:layout_width="match_parent"
+ android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Clear"
+        android:id="@+id/Clear_btn"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/Y"
+        android:shadowColor="@android:color/holo_red_dark"
+        android:background="@android:color/holo_red_light"
+        />
+        </LinearLayout>
+    <ListView android:layout_marginTop="10dp"
+        android:layout_width="match_parent" android:id="@+id/cadencelist"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        >
+
+    </ListView>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/css94809/Downloads/Cadence/app/src/main/res/layout/historyscreen.xml -->

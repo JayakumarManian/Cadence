@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+<!--
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@"
+        android:maxWidth="500dp"
+        android:minHeight="150dp"
+        android:maxHeight="200dp"
+        android:minWidth="200dp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#454545"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:text="www.csscorp.com"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#454545"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Cycling Cadence"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/magneticcycle" />
+
+</RelativeLayout><!-- From: file:/C:/Users/css94809/Downloads/Cadence/app/src/main/res/layout/activity_splash.xml -->

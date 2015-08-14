@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:layout_height="wrap_content" android:padding="10dp"
+   android:orientation="vertical"
+    >
+    <TextView android:id="@+id/session" android:textStyle="bold" android:padding="5dp"
+        android:layout_width="match_parent"  android:textSize="25dp" android:textColor="@android:color/holo_blue_dark"
+        android:text="application"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout android:id="@+id/expandview" android:paddingLeft="10dp" android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:visibility="gone" android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/hour"
+            android:layout_width="match_parent"  android:layout_margin="2dp"
+            android:text="application" android:textSize="20dp" android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/min" android:layout_margin="2dp"
+        android:layout_width="match_parent"  android:textSize="20dp" android:textColor="@android:color/darker_gray"
+        android:text="application"
+        android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/cadence"
+            android:layout_width="match_parent" android:layout_margin="2dp"
+            android:text="application" android:textSize="20dp" android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
